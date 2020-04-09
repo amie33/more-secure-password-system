@@ -1,0 +1,85 @@
+/*style sheet for my sort-of-secure*/
+#pagewrap{
+	width: 800px;
+    margin: 0 auto; 
+}
+body{
+	background-image: url("../img/space2.jpg");
+	background-repeat: no-repeat;
+	background-size: 175%;
+	padding: 100px;
+}
+.wrapper{
+	position: fixed;
+    top: 19%;
+    left: 38%;
+    margin-top: -50px;
+    margin-left: -100px;
+    text-align: center;
+    background: grey;
+    border: 2px dashed rgb(143, 188, 143, .5);
+    background-color: rgb(143, 188, 143, .5);
+    padding: 20px;
+}
+
+input[type=text], input[type=password]{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 118px;
+	display: block;
+	border: 1px solid orangered;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background: olivedrab; 
+	color: red;
+	font-family: 'Share Tech Mono', monospace;
+	text-align: center;
+}
+::placeholder{
+	color: white;
+	font-family: 'Share Tech Mono', monospace;
+
+}
+input[type=submit], input[type=reset], .button {
+	width: 50%;
+	background: white;
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 118px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: bold;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, .button:hover{
+	background-color: darkorange;
+}
+
+.heading, .heading2{
+	font-family: 'VT323', monospace;
+}
+.heading{
+	font-size: 75px;
+}
+
+.success{
+	font-family: 'Share Tech Mono', monospace;
+	text-decoration: none; 
+	width:50%; 
+	font-size: 75px;
+    margin:0 10px;/*top right bottom left*/
+    text-align:center;
+	color: white;
+}
+.fail{
+	font-family: 'Share Tech Mono', monospace;
+	text-decoration: none; 
+	width:50%; 
+	font-size: 75px;
+    margin:0 240px;/*top right bottom left*/
+    text-align:center;
+	color: white;
+}
